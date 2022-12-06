@@ -1,0 +1,207 @@
+var A:Int=0
+var B:Int=0
+var C:Int=0
+var AA:Int=0
+var D1:Int=0
+var D2:Int=0
+var D3:Int=0
+var D4:Int=0
+var D5:Int=0
+var D6:Int=0
+var D7:Int=0
+var D8:Int=0
+var D9:Int=0
+var D10:Int=0
+var D20:Int=0
+var D30:Int=0
+var D40:Int=0
+var D50:Int=0
+var D60:Int=0
+var D70:Int=0
+var D80:Int=0
+var D90:Int=0
+
+fun main(args: Array<String>) {
+    println("JANERAWEEPUN")
+    MatrixA()
+    MatrixB()
+    MatrixPlus()
+    MatrixDelete()
+}
+
+fun MatrixA() {
+    print("Enter Matrix Size I: ")
+    A = readln()!!.toInt()
+    print("Enter Matrix Size J: ")
+    B = readln()!!.toInt()
+    for (I in 0..2) {
+        for (K in 0..2) {
+            print("Enter Matrix A Index Of [${(I)}] [${(K)}]: ")
+            C = readln()!!.toInt()
+            AA = C
+            if (I == 0) {
+                if (I == 0 && K == 0) {
+                    D1 = AA
+                } else if (I == 0 && K == 1) {
+                    D2 = AA
+                } else if (I == 0 && K == 2) {
+                    D3 = AA
+                } else if (I == 1 && K == 0) {
+                    D4 = AA
+                } else if (I == 1 && K == 1) {
+                    D5 = AA
+                } else if (I == 1 && K == 2) {
+                    D6 = AA
+                } else if (I == 2 && K == 0) {
+                    D7 = AA
+                } else if (I == 2 && K == 1) {
+                    D8 = AA
+                } else if (I == 2 && K == 2) {
+                    D9 = AA
+                }
+            } else if (I == 1) {
+                if (I == 0 && K == 0) {
+                    D1 = AA
+                } else if (I == 0 && K == 1) {
+                    D2 = AA
+                } else if (I == 0 && K == 2) {
+                    D3 = AA
+                } else if (I == 1 && K == 0) {
+                    D4 = AA
+                } else if (I == 1 && K == 1) {
+                    D5 = AA
+                } else if (I == 1 && K == 2) {
+                    D6 = AA
+                } else if (I == 2 && K == 0) {
+                    D7 = AA
+                } else if (I == 2 && K == 1) {
+                    D8 = AA
+                } else if (I == 2 && K == 2) {
+                    D9 = AA
+                }
+            } else if (I == 2) {
+                if (I == 0 && K == 0) {
+                    D1 = AA
+                } else if (I == 0 && K == 1) {
+                    D2 = AA
+                } else if (I == 0 && K == 2) {
+                    D3 = AA
+                } else if (I == 1 && K == 0) {
+                    D4 = AA
+                } else if (I == 1 && K == 1) {
+                    D5 = AA
+                } else if (I == 1 && K == 2) {
+                    D6 = AA
+                } else if (I == 2 && K == 0) {
+                    D7 = AA
+                } else if (I == 2 && K == 1) {
+                    D8 = AA
+                } else if (I == 2 && K == 2) {
+                    D9 = AA
+                }
+            }
+
+
+        }
+    }
+    print("\n")
+    println("Matrix A Is")
+    println("${(D1)} ${(D2)} ${(D3)}")
+    println("${(D4)} ${(D5)} ${(D6)}")
+    println("${(D7)} ${(D8)} ${(D9)}")
+}
+
+fun MatrixB() {
+    print("\n")
+    for (I in 0..2) {
+        for (K in 0..2) {
+            print("Enter Matrix B Index Of [${(I)}] [${(K)}]: ")
+            C = readln()!!.toInt()
+            AA = C
+            if (I == 0) {
+                if (I == 0 && K == 0) {
+                    D10 = AA
+                } else if (I == 0 && K == 1) {
+                    D20 = AA
+                } else if (I == 0 && K == 2) {
+                    D30 = AA
+                } else if (I == 1 && K == 0) {
+                    D40 = AA
+                } else if (I == 1 && K == 1) {
+                    D50 = AA
+                } else if (I == 1 && K == 2) {
+                    D60 = AA
+                } else if (I == 2 && K == 0) {
+                    D70 = AA
+                } else if (I == 2 && K == 1) {
+                    D80 = AA
+                } else if (I == 2 && K == 2) {
+                    D90 = AA
+                }
+            } else if (I == 1) {
+                if (I == 0 && K == 0) {
+                    D10 = AA
+                } else if (I == 0 && K == 1) {
+                    D20 = AA
+                } else if (I == 0 && K == 2) {
+                    D30 = AA
+                } else if (I == 1 && K == 0) {
+                    D40 = AA
+                } else if (I == 1 && K == 1) {
+                    D50 = AA
+                } else if (I == 1 && K == 2) {
+                    D60 = AA
+                } else if (I == 2 && K == 0) {
+                    D70 = AA
+                } else if (I == 2 && K == 1) {
+                    D80 = AA
+                } else if (I == 2 && K == 2) {
+                    D90 = AA
+                }
+            } else if (I == 2) {
+                if (I == 0 && K == 0) {
+                    D10 = AA
+                } else if (I == 0 && K == 1) {
+                    D20 = AA
+                } else if (I == 0 && K == 2) {
+                    D30 = AA
+                } else if (I == 1 && K == 0) {
+                    D40 = AA
+                } else if (I == 1 && K == 1) {
+                    D50 = AA
+                } else if (I == 1 && K == 2) {
+                    D60 = AA
+                } else if (I == 2 && K == 0) {
+                    D70 = AA
+                } else if (I == 2 && K == 1) {
+                    D80 = AA
+                } else if (I == 2 && K == 2) {
+                    D90 = AA
+                }
+            }
+
+
+        }
+    }
+    print("\n")
+    println("Matrix B Is")
+    println("${(D10)} ${(D20)} ${(D30)}")
+    println("${(D40)} ${(D50)} ${(D60)}")
+    println("${(D70)} ${(D80)} ${(D90)}")
+}
+
+fun MatrixPlus(){
+    print("\n")
+    println("Matrix A + Matrix B")
+    println("${(D1+D10)} ${(D2+D20)} ${(D3+D30)}")
+    println("${(D4+D40)} ${(D5+D50)} ${(D6+D60)}")
+    println("${(D7+D70)} ${(D8+D80)} ${(D9+D90)}")
+}
+
+fun MatrixDelete(){
+    print("\n")
+    println("Matrix A - Matrix B")
+    println("${(D1-D10)} ${(D2-D20)} ${(D3-D30)}")
+    println("${(D4-D40)} ${(D5-D50)} ${(D6-D60)}")
+    println("${(D7-D70)} ${(D8-D80)} ${(D9-D90)}")
+}
